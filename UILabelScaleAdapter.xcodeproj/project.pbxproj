@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8470D7BE22D0835200040D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7BD22D0835200040D96 /* AppDelegate.m */; };
+		8470D7C122D0835200040D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7C022D0835200040D96 /* ViewController.m */; };
+		8470D7C422D0835200040D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8470D7C222D0835200040D96 /* Main.storyboard */; };
+		8470D7C622D0835300040D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8470D7C522D0835300040D96 /* Assets.xcassets */; };
+		8470D7C922D0835300040D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8470D7C722D0835300040D96 /* LaunchScreen.storyboard */; };
+		8470D7CC22D0835300040D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7CB22D0835300040D96 /* main.m */; };
+		8470D7D622D0835300040D96 /* UILabelScaleAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7D522D0835300040D96 /* UILabelScaleAdapterTests.m */; };
+		8470D7E122D0835300040D96 /* UILabelScaleAdapterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7E022D0835300040D96 /* UILabelScaleAdapterUITests.m */; };
+		8470D7F122D083A700040D96 /* UILabel+ScaleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7F022D083A700040D96 /* UILabel+ScaleAdapter.m */; };
+		8470D7F422D093B000040D96 /* UIFont+ScaleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7F322D093B000040D96 /* UIFont+ScaleAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8470D7D222D0835300040D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8470D7B122D0835200040D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8470D7B822D0835200040D96;
+			remoteInfo = UILabelScaleAdapter;
+		};
+		8470D7DD22D0835300040D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8470D7B122D0835200040D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8470D7B822D0835200040D96;
+			remoteInfo = UILabelScaleAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8470D7B922D0835200040D96 /* UILabelScaleAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelScaleAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470D7BC22D0835200040D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8470D7BD22D0835200040D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8470D7BF22D0835200040D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8470D7C022D0835200040D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8470D7C322D0835200040D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8470D7C522D0835300040D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8470D7C822D0835300040D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8470D7CA22D0835300040D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8470D7CB22D0835300040D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8470D7D122D0835300040D96 /* UILabelScaleAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelScaleAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470D7D522D0835300040D96 /* UILabelScaleAdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelScaleAdapterTests.m; sourceTree = "<group>"; };
+		8470D7D722D0835300040D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8470D7DC22D0835300040D96 /* UILabelScaleAdapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelScaleAdapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470D7E022D0835300040D96 /* UILabelScaleAdapterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelScaleAdapterUITests.m; sourceTree = "<group>"; };
+		8470D7E222D0835300040D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8470D7EF22D083A700040D96 /* UILabel+ScaleAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ScaleAdapter.h"; sourceTree = "<group>"; };
+		8470D7F022D083A700040D96 /* UILabel+ScaleAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ScaleAdapter.m"; sourceTree = "<group>"; };
+		8470D7F222D093B000040D96 /* UIFont+ScaleAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+ScaleAdapter.h"; sourceTree = "<group>"; };
+		8470D7F322D093B000040D96 /* UIFont+ScaleAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ScaleAdapter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8470D7B622D0835200040D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470D7CE22D0835300040D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470D7D922D0835300040D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8470D7B022D0835200040D96 = {
+			isa = PBXGroup;
+			children = (
+				8470D7BB22D0835200040D96 /* UILabelScaleAdapter */,
+				8470D7D422D0835300040D96 /* UILabelScaleAdapterTests */,
+				8470D7DF22D0835300040D96 /* UILabelScaleAdapterUITests */,
+				8470D7BA22D0835200040D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8470D7BA22D0835200040D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8470D7B922D0835200040D96 /* UILabelScaleAdapter.app */,
+				8470D7D122D0835300040D96 /* UILabelScaleAdapterTests.xctest */,
+				8470D7DC22D0835300040D96 /* UILabelScaleAdapterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8470D7BB22D0835200040D96 /* UILabelScaleAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				8470D7EE22D0839600040D96 /* ScaleAdapter */,
+				8470D7BC22D0835200040D96 /* AppDelegate.h */,
+				8470D7BD22D0835200040D96 /* AppDelegate.m */,
+				8470D7BF22D0835200040D96 /* ViewController.h */,
+				8470D7C022D0835200040D96 /* ViewController.m */,
+				8470D7C222D0835200040D96 /* Main.storyboard */,
+				8470D7C522D0835300040D96 /* Assets.xcassets */,
+				8470D7C722D0835300040D96 /* LaunchScreen.storyboard */,
+				8470D7CA22D0835300040D96 /* Info.plist */,
+				8470D7CB22D0835300040D96 /* main.m */,
+			);
+			path = UILabelScaleAdapter;
+			sourceTree = "<group>";
+		};
+		8470D7D422D0835300040D96 /* UILabelScaleAdapterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8470D7D522D0835300040D96 /* UILabelScaleAdapterTests.m */,
+				8470D7D722D0835300040D96 /* Info.plist */,
+			);
+			path = UILabelScaleAdapterTests;
+			sourceTree = "<group>";
+		};
+		8470D7DF22D0835300040D96 /* UILabelScaleAdapterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8470D7E022D0835300040D96 /* UILabelScaleAdapterUITests.m */,
+				8470D7E222D0835300040D96 /* Info.plist */,
+			);
+			path = UILabelScaleAdapterUITests;
+			sourceTree = "<group>";
+		};
+		8470D7EE22D0839600040D96 /* ScaleAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				8470D7EF22D083A700040D96 /* UILabel+ScaleAdapter.h */,
+				8470D7F022D083A700040D96 /* UILabel+ScaleAdapter.m */,
+				8470D7F222D093B000040D96 /* UIFont+ScaleAdapter.h */,
+				8470D7F322D093B000040D96 /* UIFont+ScaleAdapter.m */,
+			);
+			path = ScaleAdapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8470D7B822D0835200040D96 /* UILabelScaleAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8470D7E522D0835300040D96 /* Build configuration list for PBXNativeTarget "UILabelScaleAdapter" */;
+			buildPhases = (
+				8470D7B522D0835200040D96 /* Sources */,
+				8470D7B622D0835200040D96 /* Frameworks */,
+				8470D7B722D0835200040D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILabelScaleAdapter;
+			productName = UILabelScaleAdapter;
+			productReference = 8470D7B922D0835200040D96 /* UILabelScaleAdapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8470D7D022D0835300040D96 /* UILabelScaleAdapterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8470D7E822D0835300040D96 /* Build configuration list for PBXNativeTarget "UILabelScaleAdapterTests" */;
+			buildPhases = (
+				8470D7CD22D0835300040D96 /* Sources */,
+				8470D7CE22D0835300040D96 /* Frameworks */,
+				8470D7CF22D0835300040D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8470D7D322D0835300040D96 /* PBXTargetDependency */,
+			);
+			name = UILabelScaleAdapterTests;
+			productName = UILabelScaleAdapterTests;
+			productReference = 8470D7D122D0835300040D96 /* UILabelScaleAdapterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8470D7DB22D0835300040D96 /* UILabelScaleAdapterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8470D7EB22D0835300040D96 /* Build configuration list for PBXNativeTarget "UILabelScaleAdapterUITests" */;
+			buildPhases = (
+				8470D7D822D0835300040D96 /* Sources */,
+				8470D7D922D0835300040D96 /* Frameworks */,
+				8470D7DA22D0835300040D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8470D7DE22D0835300040D96 /* PBXTargetDependency */,
+			);
+			name = UILabelScaleAdapterUITests;
+			productName = UILabelScaleAdapterUITests;
+			productReference = 8470D7DC22D0835300040D96 /* UILabelScaleAdapterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8470D7B122D0835200040D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "田淳";
+				TargetAttributes = {
+					8470D7B822D0835200040D96 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8470D7D022D0835300040D96 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8470D7B822D0835200040D96;
+					};
+					8470D7DB22D0835300040D96 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8470D7B822D0835200040D96;
+					};
+				};
+			};
+			buildConfigurationList = 8470D7B422D0835200040D96 /* Build configuration list for PBXProject "UILabelScaleAdapter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8470D7B022D0835200040D96;
+			productRefGroup = 8470D7BA22D0835200040D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8470D7B822D0835200040D96 /* UILabelScaleAdapter */,
+				8470D7D022D0835300040D96 /* UILabelScaleAdapterTests */,
+				8470D7DB22D0835300040D96 /* UILabelScaleAdapterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8470D7B722D0835200040D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470D7C922D0835300040D96 /* LaunchScreen.storyboard in Resources */,
+				8470D7C622D0835300040D96 /* Assets.xcassets in Resources */,
+				8470D7C422D0835200040D96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470D7CF22D0835300040D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470D7DA22D0835300040D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8470D7B522D0835200040D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470D7C122D0835200040D96 /* ViewController.m in Sources */,
+				8470D7F422D093B000040D96 /* UIFont+ScaleAdapter.m in Sources */,
+				8470D7CC22D0835300040D96 /* main.m in Sources */,
+				8470D7BE22D0835200040D96 /* AppDelegate.m in Sources */,
+				8470D7F122D083A700040D96 /* UILabel+ScaleAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470D7CD22D0835300040D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470D7D622D0835300040D96 /* UILabelScaleAdapterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470D7D822D0835300040D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470D7E122D0835300040D96 /* UILabelScaleAdapterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8470D7D322D0835300040D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8470D7B822D0835200040D96 /* UILabelScaleAdapter */;
+			targetProxy = 8470D7D222D0835300040D96 /* PBXContainerItemProxy */;
+		};
+		8470D7DE22D0835300040D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8470D7B822D0835200040D96 /* UILabelScaleAdapter */;
+			targetProxy = 8470D7DD22D0835300040D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8470D7C222D0835200040D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8470D7C322D0835200040D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8470D7C722D0835300040D96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8470D7C822D0835300040D96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8470D7E322D0835300040D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8470D7E422D0835300040D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8470D7E622D0835300040D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7D5482NMF;
+				INFOPLIST_FILE = UILabelScaleAdapter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.UILabelScaleAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8470D7E722D0835300040D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7D5482NMF;
+				INFOPLIST_FILE = UILabelScaleAdapter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.UILabelScaleAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8470D7E922D0835300040D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7D5482NMF;
+				INFOPLIST_FILE = UILabelScaleAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.UILabelScaleAdapterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelScaleAdapter.app/UILabelScaleAdapter";
+			};
+			name = Debug;
+		};
+		8470D7EA22D0835300040D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7D5482NMF;
+				INFOPLIST_FILE = UILabelScaleAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.UILabelScaleAdapterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelScaleAdapter.app/UILabelScaleAdapter";
+			};
+			name = Release;
+		};
+		8470D7EC22D0835300040D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7D5482NMF;
+				INFOPLIST_FILE = UILabelScaleAdapterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.UILabelScaleAdapterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UILabelScaleAdapter;
+			};
+			name = Debug;
+		};
+		8470D7ED22D0835300040D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7D5482NMF;
+				INFOPLIST_FILE = UILabelScaleAdapterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.UILabelScaleAdapterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UILabelScaleAdapter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8470D7B422D0835200040D96 /* Build configuration list for PBXProject "UILabelScaleAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470D7E322D0835300040D96 /* Debug */,
+				8470D7E422D0835300040D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8470D7E522D0835300040D96 /* Build configuration list for PBXNativeTarget "UILabelScaleAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470D7E622D0835300040D96 /* Debug */,
+				8470D7E722D0835300040D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8470D7E822D0835300040D96 /* Build configuration list for PBXNativeTarget "UILabelScaleAdapterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470D7E922D0835300040D96 /* Debug */,
+				8470D7EA22D0835300040D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8470D7EB22D0835300040D96 /* Build configuration list for PBXNativeTarget "UILabelScaleAdapterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470D7EC22D0835300040D96 /* Debug */,
+				8470D7ED22D0835300040D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8470D7B122D0835200040D96 /* Project object */;
+}
